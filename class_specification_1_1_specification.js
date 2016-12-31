@@ -1,0 +1,26 @@
+var class_specification_1_1_specification =
+[
+    [ "__init__", "class_specification_1_1_specification.html#a7b39f87b23f566ddb7b502ead0c1a41a", null ],
+    [ "change", "class_specification_1_1_specification.html#abd621da3de1081382a0bbcdbb5c2246c", null ],
+    [ "delete", "class_specification_1_1_specification.html#a80bcaebf1d4d30b036e2a19e24475610", null ],
+    [ "generatePackage", "class_specification_1_1_specification.html#af3ac684813eee81f20813f67bd83e6a9", null ],
+    [ "getActiveKeyMap", "class_specification_1_1_specification.html#a81ce4da009a42cdfb99119793994fe39", null ],
+    [ "getInstallPath", "class_specification_1_1_specification.html#ae4ba120ffd79c933e2d832ca0a8715a1", null ],
+    [ "getKeyMapping", "class_specification_1_1_specification.html#a71fff92296e12a0bceb56f0ce001aa2c", null ],
+    [ "getMotionId", "class_specification_1_1_specification.html#a4cf25385f8ff00b93b6c939581518fad", null ],
+    [ "getPackagePath", "class_specification_1_1_specification.html#ac2d7b0225373d234e6fb30a8ecb86d37", null ],
+    [ "getPackageTimestamp", "class_specification_1_1_specification.html#a804a29aafdef203d3b239abb74e55fe3", null ],
+    [ "init", "class_specification_1_1_specification.html#ae949806ecfe7cda44ad45ba94204f9fe", null ],
+    [ "isInstalled", "class_specification_1_1_specification.html#aee33008483533658e9d3125d9d3a1ed2", null ],
+    [ "isPackaged", "class_specification_1_1_specification.html#a58e3a5e71eb11b0086001bcf5ffcb049", null ],
+    [ "refreshServos", "class_specification_1_1_specification.html#ac803bac2561dc3b5fde09ea5d5dc919f", null ],
+    [ "save", "class_specification_1_1_specification.html#a1bb3bed76b88004a7c2dde5e191a9d3e", null ],
+    [ "activemap", "class_specification_1_1_specification.html#aff7fbd363462fd4a907befa862562baa", null ],
+    [ "chains", "class_specification_1_1_specification.html#ad819d587e88d697cf3349818e8a3d4a2", null ],
+    [ "imu", "class_specification_1_1_specification.html#a195f8c62260ad48223679bff3bf139b3", null ],
+    [ "jbIndex", "class_specification_1_1_specification.html#a6868bb12450fdf6f4d7319b1d85446af", null ],
+    [ "jsonData", "class_specification_1_1_specification.html#ad46dbb31e87611295ac8c99f48a5ab9c", null ],
+    [ "keyboard", "class_specification_1_1_specification.html#a2e967e7955f5bcf808fc7234afa93f3a", null ],
+    [ "motions", "class_specification_1_1_specification.html#addba274dc8d61fefa24281cf3a6378b2", null ],
+    [ "servos", "class_specification_1_1_specification.html#a4bdb9c0af3421e2388dfa75106fd1e1d", null ]
+];
