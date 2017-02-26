@@ -31,6 +31,10 @@ var annotated_dup =
       [ "IMU", "class_i_m_u_1_1_i_m_u.html", "class_i_m_u_1_1_i_m_u" ],
       [ "IMUMetric", "class_i_m_u_1_1_i_m_u_metric.html", "class_i_m_u_1_1_i_m_u_metric" ]
     ] ],
+    [ "Joystick", null, [
+      [ "Joystick", "class_joystick_1_1_joystick.html", "class_joystick_1_1_joystick" ],
+      [ "JoystickRegistry", "class_joystick_1_1_joystick_registry.html", "class_joystick_1_1_joystick_registry" ]
+    ] ],
     [ "JsonBlob", null, [
       [ "JsonBlob", "class_json_blob_1_1_json_blob.html", "class_json_blob_1_1_json_blob" ]
     ] ],
@@ -55,6 +59,10 @@ var annotated_dup =
       [ "Motion", "class_motion_1_1_motion.html", "class_motion_1_1_motion" ],
       [ "MotionScheduler", "class_motion_1_1_motion_scheduler.html", "class_motion_1_1_motion_scheduler" ],
       [ "Servo", "class_motion_1_1_servo.html", "class_motion_1_1_servo" ]
+    ] ],
+    [ "Motors", null, [
+      [ "DcMotor", "class_motors_1_1_dc_motor.html", "class_motors_1_1_dc_motor" ],
+      [ "StepperMotor", "class_motors_1_1_stepper_motor.html", "class_motors_1_1_stepper_motor" ]
     ] ],
     [ "MPU6050", null, [
       [ "I2C", "class_m_p_u6050_1_1_i2_c.html", "class_m_p_u6050_1_1_i2_c" ],
@@ -135,6 +143,13 @@ var annotated_dup =
     [ "TkIMUManager", null, [
       [ "TkIMUManager", "class_tk_i_m_u_manager_1_1_tk_i_m_u_manager.html", "class_tk_i_m_u_manager_1_1_tk_i_m_u_manager" ]
     ] ],
+    [ "TkJoystickManager", null, [
+      [ "TkJoystick", "class_tk_joystick_manager_1_1_tk_joystick.html", "class_tk_joystick_manager_1_1_tk_joystick" ],
+      [ "TkJoystickAxis", "class_tk_joystick_manager_1_1_tk_joystick_axis.html", "class_tk_joystick_manager_1_1_tk_joystick_axis" ],
+      [ "TkJoystickButton", "class_tk_joystick_manager_1_1_tk_joystick_button.html", "class_tk_joystick_manager_1_1_tk_joystick_button" ],
+      [ "TkJoystickDualAxis", "class_tk_joystick_manager_1_1_tk_joystick_dual_axis.html", "class_tk_joystick_manager_1_1_tk_joystick_dual_axis" ],
+      [ "TkJoystickManager", "class_tk_joystick_manager_1_1_tk_joystick_manager.html", "class_tk_joystick_manager_1_1_tk_joystick_manager" ]
+    ] ],
     [ "TkKeyboardManager", null, [
       [ "TkKeyboardManager", "class_tk_keyboard_manager_1_1_tk_keyboard_manager.html", "class_tk_keyboard_manager_1_1_tk_keyboard_manager" ]
     ] ],
@@ -143,6 +158,9 @@ var annotated_dup =
     ] ],
     [ "TkMotionManager", null, [
       [ "TkMotionManager", "class_tk_motion_manager_1_1_tk_motion_manager.html", "class_tk_motion_manager_1_1_tk_motion_manager" ]
+    ] ],
+    [ "TkMotorManager", null, [
+      [ "TkMotorManager", "class_tk_motor_manager_1_1_tk_motor_manager.html", "class_tk_motor_manager_1_1_tk_motor_manager" ]
     ] ],
     [ "TkNetworkManager", null, [
       [ "TkNetworkManager", "class_tk_network_manager_1_1_tk_network_manager.html", "class_tk_network_manager_1_1_tk_network_manager" ]

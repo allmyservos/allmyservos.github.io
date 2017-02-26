@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="allmyservos.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Fun with PWM
-   &#160;<span id="projectnumber">0.30</span>
+   &#160;<span id="projectnumber">0.32</span>
    </div>
   </td>
  </tr>
@@ -84,6 +84,7 @@ $(document).ready(function(){initNavTree('class_motion_1_1_motion_scheduler.html
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="class_motion_1_1_motion_scheduler-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -120,6 +121,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3400cf3ce54065bcecb0d0095cc0b243"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed58043fbd3cd1024ff79a3c92539ffd"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion_1_1_motion_scheduler.html#aed58043fbd3cd1024ff79a3c92539ffd">default</a> (self)</td></tr>
 <tr class="separator:aed58043fbd3cd1024ff79a3c92539ffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8103ff8c406fd5b45ab26b9014d07e99"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_motion_1_1_motion_scheduler.html#a8103ff8c406fd5b45ab26b9014d07e99">keyboardCallback</a> (self, hex, ascii)</td></tr>
+<tr class="separator:a8103ff8c406fd5b45ab26b9014d07e99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a74fcd0c7283311446e8ab5bba971bbf0"><td class="memItemLeft" align="right" valign="top"><a id="a74fcd0c7283311446e8ab5bba971bbf0"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>GetInstance</b> (specification=None, scheduler=None)</td></tr>
+<tr class="separator:a74fcd0c7283311446e8ab5bba971bbf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -132,6 +141,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a9f68a378d0be3a5ca1751585aefd7299"><td class="memItemLeft" align="right" valign="top"><a id="a9f68a378d0be3a5ca1751585aefd7299"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>currentpos</b></td></tr>
 <tr class="separator:a9f68a378d0be3a5ca1751585aefd7299"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0efc802eb22684460b9cdcac738d7c4a"><td class="memItemLeft" align="right" valign="top"><a id="a0efc802eb22684460b9cdcac738d7c4a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>kbthread</b></td></tr>
+<tr class="separator:a0efc802eb22684460b9cdcac738d7c4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d93d864406ee9a03f5ff75d363246d9"><td class="memItemLeft" align="right" valign="top"><a id="a3d93d864406ee9a03f5ff75d363246d9"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>specification</b></td></tr>
 <tr class="separator:a3d93d864406ee9a03f5ff75d363246d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -283,6 +295,41 @@ this function can be run multiple times per frame and will advance based on the 
 @param meta dict
 
 @return bool
+</pre> 
+</div>
+</div>
+<a id="a8103ff8c406fd5b45ab26b9014d07e99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8103ff8c406fd5b45ab26b9014d07e99">&sect;&nbsp;</a></span>keyboardCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def Motion.MotionScheduler.keyboardCallback </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>hex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ascii</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">triggers motions based on pressed keys
 </pre> 
 </div>
 </div>

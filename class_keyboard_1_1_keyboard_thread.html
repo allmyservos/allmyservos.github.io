@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="allmyservos.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Fun with PWM
-   &#160;<span id="projectnumber">0.30</span>
+   &#160;<span id="projectnumber">0.32</span>
    </div>
   </td>
  </tr>
@@ -84,6 +84,7 @@ $(document).ready(function(){initNavTree('class_keyboard_1_1_keyboard_thread.htm
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="class_keyboard_1_1_keyboard_thread-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -104,36 +105,39 @@ Inheritance diagram for Keyboard.KeyboardThread:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a10b463bb6a2a5ee3a6517191c0d15784"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keyboard_1_1_keyboard_thread.html#a10b463bb6a2a5ee3a6517191c0d15784">__init__</a> (self, specification=None, motionScheduler=None, scheduler=None, useTask=True)</td></tr>
-<tr class="separator:a10b463bb6a2a5ee3a6517191c0d15784"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaf0a0156a876152414a17a270e76f9a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keyboard_1_1_keyboard_thread.html#acaf0a0156a876152414a17a270e76f9a">__init__</a> (self)</td></tr>
+<tr class="separator:acaf0a0156a876152414a17a270e76f9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05bd9ee5670530d5dd98734d9e09e2c3"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keyboard_1_1_keyboard_thread.html#a05bd9ee5670530d5dd98734d9e09e2c3">check</a> (self)</td></tr>
 <tr class="separator:a05bd9ee5670530d5dd98734d9e09e2c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7def95a5e591993b226e4a60885bcec"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keyboard_1_1_keyboard_thread.html#ab7def95a5e591993b226e4a60885bcec">start</a> (self)</td></tr>
 <tr class="separator:ab7def95a5e591993b226e4a60885bcec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44f3b9ca84b7de1518d2a0dd4d9adfe7"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keyboard_1_1_keyboard_thread.html#a44f3b9ca84b7de1518d2a0dd4d9adfe7">stop</a> (self)</td></tr>
 <tr class="separator:a44f3b9ca84b7de1518d2a0dd4d9adfe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef17b174137f8fda4ddbed716c784708"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keyboard_1_1_keyboard_thread.html#aef17b174137f8fda4ddbed716c784708">standardCallback</a> (self, hex, ascii)</td></tr>
-<tr class="separator:aef17b174137f8fda4ddbed716c784708"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdb06c139350691ce26f6ae5eae953f1"><td class="memItemLeft" align="right" valign="top"><a id="abdb06c139350691ce26f6ae5eae953f1"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>isRunning</b> (self)</td></tr>
+<tr class="separator:abdb06c139350691ce26f6ae5eae953f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af52963a40a023ecec4c1acb7d78c0524"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keyboard_1_1_keyboard_thread.html#af52963a40a023ecec4c1acb7d78c0524">printCallback</a> (self, hex, ascii)</td></tr>
 <tr class="separator:af52963a40a023ecec4c1acb7d78c0524"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a406318745afde3defed36a1994a1fc16"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keyboard_1_1_keyboard_thread.html#a406318745afde3defed36a1994a1fc16">addCallback</a> (self, index, func)</td></tr>
 <tr class="separator:a406318745afde3defed36a1994a1fc16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a066a96fc15664ce7cb51bdd539c97bff"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keyboard_1_1_keyboard_thread.html#a066a96fc15664ce7cb51bdd539c97bff">removeCallback</a> (self, index)</td></tr>
 <tr class="separator:a066a96fc15664ce7cb51bdd539c97bff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a161563e937ceda255180defae9a56493"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keyboard_1_1_keyboard_thread.html#a161563e937ceda255180defae9a56493">hasCallback</a> (self, index)</td></tr>
+<tr class="separator:a161563e937ceda255180defae9a56493"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bdf8e4e0036f10ddbfb3469df4d408f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keyboard_1_1_keyboard_thread.html#a6bdf8e4e0036f10ddbfb3469df4d408f">doCallback</a> (self, hex=None, ascii=None)</td></tr>
 <tr class="separator:a6bdf8e4e0036f10ddbfb3469df4d408f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a96c0cd2a6e4c66e5d3792570c07c2c6f"><td class="memItemLeft" align="right" valign="top"><a id="a96c0cd2a6e4c66e5d3792570c07c2c6f"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>GetInstance</b> ()</td></tr>
+<tr class="separator:a96c0cd2a6e4c66e5d3792570c07c2c6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:acbc5d58aad88b259492474f9253be8da"><td class="memItemLeft" align="right" valign="top"><a id="acbc5d58aad88b259492474f9253be8da"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>scheduler</b></td></tr>
 <tr class="separator:acbc5d58aad88b259492474f9253be8da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e4a3c624537d9c24e7b24df7e9d73ea"><td class="memItemLeft" align="right" valign="top"><a id="a2e4a3c624537d9c24e7b24df7e9d73ea"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>specification</b></td></tr>
-<tr class="separator:a2e4a3c624537d9c24e7b24df7e9d73ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab337cb30692a7de2e0a827a33274d223"><td class="memItemLeft" align="right" valign="top"><a id="ab337cb30692a7de2e0a827a33274d223"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>motionScheduler</b></td></tr>
-<tr class="separator:ab337cb30692a7de2e0a827a33274d223"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abda23bec3603baade0230952f850c887"><td class="memItemLeft" align="right" valign="top"><a id="abda23bec3603baade0230952f850c887"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>useTask</b></td></tr>
 <tr class="separator:abda23bec3603baade0230952f850c887"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,8 +154,8 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Keyboard service. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a10b463bb6a2a5ee3a6517191c0d15784"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10b463bb6a2a5ee3a6517191c0d15784">&sect;&nbsp;</a></span>__init__()</h2>
+<a id="acaf0a0156a876152414a17a270e76f9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acaf0a0156a876152414a17a270e76f9a">&sect;&nbsp;</a></span>__init__()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -160,36 +164,8 @@ Public Attributes</h2></td></tr>
           <td class="memname">def Keyboard.KeyboardThread.__init__ </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>self</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>specification</em> = <code>None</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>motionScheduler</em> = <code>None</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>scheduler</em> = <code>None</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>useTask</em> = <code>True</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -292,6 +268,35 @@ Public Attributes</h2></td></tr>
 </pre> 
 </div>
 </div>
+<a id="a161563e937ceda255180defae9a56493"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a161563e937ceda255180defae9a56493">&sect;&nbsp;</a></span>hasCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def Keyboard.KeyboardThread.hasCallback </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">checks if a callback has already been added
+</pre> 
+</div>
+</div>
 <a id="af52963a40a023ecec4c1acb7d78c0524"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af52963a40a023ecec4c1acb7d78c0524">&sect;&nbsp;</a></span>printCallback()</h2>
 
@@ -353,41 +358,6 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <pre class="fragment">removes a callback
-</pre> 
-</div>
-</div>
-<a id="aef17b174137f8fda4ddbed716c784708"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef17b174137f8fda4ddbed716c784708">&sect;&nbsp;</a></span>standardCallback()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def Keyboard.KeyboardThread.standardCallback </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>hex</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>ascii</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">provides standard motion / chain functionality
 </pre> 
 </div>
 </div>

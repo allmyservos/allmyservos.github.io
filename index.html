@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="allmyservos.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Fun with PWM
-   &#160;<span id="projectnumber">0.30</span>
+   &#160;<span id="projectnumber">0.32</span>
    </div>
   </td>
  </tr>
@@ -93,6 +93,7 @@ Introduction</h1>
 <li>Pi Camera</li>
 <li>Adafruit PCA9685 16 Channel Servo Driver</li>
 <li>Invensense MPU6050 Accelerometer and Gyro</li>
+<li>Motor Drivers: L298N, TB6612FNG and BTS7960</li>
 </ul>
 <p>The app provides a user friendly interface for configuration, a command line version for running over SSH and now supports headless operation. To get started, make sure the directory which contains this file is copied to the SD card of your Raspberry Pi, open a terminal, change to this directory and run 'sudo python GUI.py'</p>
 <p>For more information visit:</p>
@@ -121,6 +122,7 @@ Supported Models and Operating Systems</h2>
 <li>2016-05-10</li>
 <li>2016-09-23</li>
 <li>2016-11-25</li>
+<li>2017-01-11</li>
 </ul>
 </li>
 </ul>
@@ -175,6 +177,12 @@ IMU</h2>
 <div class="image">
 <img src="imu-features.jpg" alt="IMU Features"/>
 </div>
+<h2><a class="anchor" id="joystick"></a>
+Joystick</h2>
+<p>The joystick module provides a service which registers USB or Bluetooth joysticks / gamepads as they are connected. Other objects can add a callback function which will be executed when a joystick action happens. The configure page displays all detected joysticks and their axis / buttons maps. see: <a class="el" href="class_tk_joystick_manager_1_1_tk_joystick_manager.html">TkJoystickManager.TkJoystickManager</a></p>
+<div class="image">
+<img src="joystick.jpg" alt="Joystick"/>
+</div>
 <h2><a class="anchor" id="keyboard"></a>
 Keyboard</h2>
 <p>The keyboard module provides a user interface for configuring keymaps. These are used to trigger motions or chains when keys are pressed. It also allows other modules to plugin and perform any action when a key is pressed. see: <a class="el" href="class_tk_keyboard_manager_1_1_tk_keyboard_manager.html">TkKeyboardManager.TkKeyboardManager</a></p>
@@ -192,6 +200,19 @@ Motions</h2>
 <p>When the servo configuration is complete, motions can be created which orchestrate the angles of the servos over time. see: <a class="el" href="class_tk_motion_manager_1_1_tk_motion_manager.html">TkMotionManager.TkMotionManager</a></p>
 <div class="image">
 <img src="motions.jpg" alt="Motions"/>
+</div>
+<h2><a class="anchor" id="motors"></a>
+DC Motors</h2>
+<p>The DC motor module provides support for several motor driver boards. Each motor reserves a set of GPIO pins on the Raspberry Pi for use with a drive board. Motors have a drive state which controls the speed and direction of the motor by setting a value between -1 and 1. The DC motor module is also integrated with the Keyboard and Joystick module. see: <a class="el" href="class_tk_motor_manager_1_1_tk_motor_manager.html">TkMotorManager.TkMotorManager</a></p>
+<div class="image">
+<img src="dc-motor.jpg" alt="DC Motor"/>
+</div>
+<h2><a class="anchor" id="steppers"></a>
+Stepper Motors</h2>
+<p>Stepper motors can also be connected to the Raspberry Pi using Dual H Bridge motor driver boards. These boards allow 4 input wires (from the Pi GPIO) and 4 output wires from a stepper motor to be connected. Sending a HIGH signal from a GPIO pin will cause the motor driver to energize a coil in the stepper motor with a particulary polarity. This turns the stepper motor to align with that coil. AllMyServos allows stepper motors to be configured by providing the steps per revolution and maximum revolutions per minute (normally available on the stepper motor datasheet). As with DC motors, AllMyServos allows the speed and direction of the motor to be changed by setting the drive state (-1 to 1). When editing a stepper motor, this can be done using a slider. The angle of the stepper motor is tracked by AllMyServos allowing the motor to turn to a given angle.</p>
+<p>see: <a class="el" href="class_tk_motor_manager_1_1_tk_motor_manager.html">TkMotorManager.TkMotorManager</a></p>
+<div class="image">
+<img src="stepper.jpg" alt="Stepper Motor"/>
 </div>
 <h2><a class="anchor" id="notifier"></a>
 Notifier</h2>

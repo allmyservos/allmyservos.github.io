@@ -13,8 +13,10 @@ var class_specification_1_1_specification =
     [ "init", "class_specification_1_1_specification.html#ae949806ecfe7cda44ad45ba94204f9fe", null ],
     [ "isInstalled", "class_specification_1_1_specification.html#aee33008483533658e9d3125d9d3a1ed2", null ],
     [ "isPackaged", "class_specification_1_1_specification.html#a58e3a5e71eb11b0086001bcf5ffcb049", null ],
+    [ "refreshMotors", "class_specification_1_1_specification.html#acfc03c5c581b1f3f3c185f279222053a", null ],
     [ "refreshServos", "class_specification_1_1_specification.html#ac803bac2561dc3b5fde09ea5d5dc919f", null ],
     [ "save", "class_specification_1_1_specification.html#a1bb3bed76b88004a7c2dde5e191a9d3e", null ],
+    [ "stopMotors", "class_specification_1_1_specification.html#ad466599ac6940d64905f832b1790a273", null ],
     [ "activemap", "class_specification_1_1_specification.html#aff7fbd363462fd4a907befa862562baa", null ],
     [ "chains", "class_specification_1_1_specification.html#ad819d587e88d697cf3349818e8a3d4a2", null ],
     [ "imu", "class_specification_1_1_specification.html#a195f8c62260ad48223679bff3bf139b3", null ],
@@ -22,5 +24,7 @@ var class_specification_1_1_specification =
     [ "jsonData", "class_specification_1_1_specification.html#ad46dbb31e87611295ac8c99f48a5ab9c", null ],
     [ "keyboard", "class_specification_1_1_specification.html#a2e967e7955f5bcf808fc7234afa93f3a", null ],
     [ "motions", "class_specification_1_1_specification.html#addba274dc8d61fefa24281cf3a6378b2", null ],
-    [ "servos", "class_specification_1_1_specification.html#a4bdb9c0af3421e2388dfa75106fd1e1d", null ]
+    [ "motors", "class_specification_1_1_specification.html#af5e38ac91c73074bcc226b48fc2cd6e7", null ],
+    [ "servos", "class_specification_1_1_specification.html#a4bdb9c0af3421e2388dfa75106fd1e1d", null ],
+    [ "steppers", "class_specification_1_1_specification.html#a0f63365a7a694bd3f35f54ad21c0b4fa", null ]
 ];

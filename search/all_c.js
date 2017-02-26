@@ -2,6 +2,7 @@ var searchData=
 [
   ['listchainmotions',['listChainMotions',['../class_tk_motion_manager_1_1_tk_motion_manager.html#a2464369a5a26f111d09e8443bed7fa2c',1,'TkMotionManager::TkMotionManager']]],
   ['listchains',['listChains',['../class_tk_motion_manager_1_1_tk_motion_manager.html#acc22b5ae56e27620680d0e3f7002d7af',1,'TkMotionManager.TkMotionManager.listChains()'],['../class_s_r_p_c_1_1_exposed.html#ae21d25f0831492ce3ab9e415e6b20057',1,'SRPC.Exposed.listChains()']]],
+  ['listdcmotors',['listDCMotors',['../class_tk_motor_manager_1_1_tk_motor_manager.html#ad2fae31e858615edb107d0490e247de7',1,'TkMotorManager::TkMotorManager']]],
   ['listdir',['listDir',['../class_camera_1_1_camera.html#ae2122173f447bf934a46efc420852af0',1,'Camera::Camera']]],
   ['listmappings',['listMappings',['../class_tk_keyboard_manager_1_1_tk_keyboard_manager.html#a5be05cb67c2233c9a69ccf99bf0baca3',1,'TkKeyboardManager::TkKeyboardManager']]],
   ['listmaps',['listMaps',['../class_tk_keyboard_manager_1_1_tk_keyboard_manager.html#a34db0ab2096cf24949e66195031bd81b',1,'TkKeyboardManager::TkKeyboardManager']]],
@@ -15,6 +16,7 @@ var searchData=
   ['listservos',['listServos',['../class_tk_servo_manager_1_1_tk_servo_manager.html#a9bfc6c24c1ee49d7f4ace774d0d5df86',1,'TkServoManager::TkServoManager']]],
   ['listsettings',['listSettings',['../class_tk_setting_manager_1_1_tk_setting_manager.html#ae235ddb5f9f16ff40b2b59bd9a5a7b73',1,'TkSettingManager::TkSettingManager']]],
   ['listspecifications',['listSpecifications',['../class_tk_specification_manager_1_1_tk_specification_manager.html#a829ece6eca4a8d5c206546a26fd1d0cd',1,'TkSpecificationManager::TkSpecificationManager']]],
+  ['liststeppermotors',['listStepperMotors',['../class_tk_motor_manager_1_1_tk_motor_manager.html#ae2b3776a8dbc364f6f4ecc7406f80467',1,'TkMotorManager::TkMotorManager']]],
   ['listtasks',['listTasks',['../class_scheduler_1_1_scheduler.html#ad28fee8d190a21752c2c74654928bfb2',1,'Scheduler.Scheduler.listTasks()'],['../class_tk_schedule_manager_1_1_tk_schedule_manager.html#abdebf813cc49295c45800b5e7d2b7243',1,'TkScheduleManager.TkScheduleManager.listTasks()']]],
   ['listthemes',['listThemes',['../class_tk_theme_manager_1_1_tk_theme_manager.html#a2166719f8b52ac417163d51225ccdd76',1,'TkThemeManager::TkThemeManager']]],
   ['livecommand',['liveCommand',['../class_s_r_p_c_1_1_exposed.html#a2fed88695437e03c52045b8fffb80482',1,'SRPC::Exposed']]],

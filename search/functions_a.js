@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['keycapture',['keyCapture',['../class_tk_keyboard_manager_1_1_tk_keyboard_manager.html#a60d5348c6ff937a589b45a844f93a8a8',1,'TkKeyboardManager::TkKeyboardManager']]],
-  ['keyexists',['keyExists',['../class_s_s_l_manager_1_1_s_s_l_manager.html#aa3e8dbd681c2cb32539ff641abc759a9',1,'SSLManager::SSLManager']]]
+  ['joystickactionpreviewcallback',['joystickActionPreviewCallback',['../class_tk_motor_manager_1_1_tk_motor_manager.html#ae4ee0155263c935930958739d3c70ab9',1,'TkMotorManager::TkMotorManager']]],
+  ['joystickcallback',['joystickCallback',['../class_motors_1_1_dc_motor.html#afb7a9313ff4d581518abd77a236643d4',1,'Motors.DcMotor.joystickCallback()'],['../class_motors_1_1_stepper_motor.html#ae3d0403622628d7724f3035df9e231e5',1,'Motors.StepperMotor.joystickCallback()']]]
 ];

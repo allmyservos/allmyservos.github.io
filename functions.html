@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="allmyservos.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Fun with PWM
-   &#160;<span id="projectnumber">0.30</span>
+   &#160;<span id="projectnumber">0.32</span>
    </div>
   </td>
  </tr>
@@ -96,15 +96,19 @@ $(document).ready(function(){initNavTree('functions.html','');});
 , <a class="el" href="class_g_u_i_1_1_g_u_i.html#aece40947d02e97cae26ecf87a7c6f6a0">GUI.GUI</a>
 , <a class="el" href="class_i_m_u_1_1_i_m_u.html#a26ed5f4851ba9c4bf9a754b934a1dc29">IMU.IMU</a>
 , <a class="el" href="class_i_m_u_1_1_i_m_u_metric.html#afcdbe48bd67c01923ca982f73aefe308">IMU.IMUMetric</a>
+, <a class="el" href="class_joystick_1_1_joystick.html#a37423b2d7c394f2b5c2fdfbfe6ef8002">Joystick.Joystick</a>
+, <a class="el" href="class_joystick_1_1_joystick_registry.html#a5198a3b394aabf94e3a9fedce0c4d14e">Joystick.JoystickRegistry</a>
 , <a class="el" href="class_json_blob_1_1_json_blob.html#aa486ad24c237590db6b55a0beb7929d3">JsonBlob.JsonBlob</a>
 , <a class="el" href="class_keyboard_1_1_ascii_map.html#aea17738fa26df83146f8e1e5a810e272">Keyboard.AsciiMap</a>
-, <a class="el" href="class_keyboard_1_1_keyboard_thread.html#a10b463bb6a2a5ee3a6517191c0d15784">Keyboard.KeyboardThread</a>
+, <a class="el" href="class_keyboard_1_1_keyboard_thread.html#acaf0a0156a876152414a17a270e76f9a">Keyboard.KeyboardThread</a>
 , <a class="el" href="class_logo_1_1_logo.html#aad5ae6f919c22aa988d73acecdba8166">Logo.Logo</a>
 , <a class="el" href="class_metric_1_1_metric.html#a601eba8d52728546de76a49fc4956f59">Metric.Metric</a>
 , <a class="el" href="class_metric_1_1_metric_value.html#aad51013b97a773e36860cd93de25dd3d">Metric.MetricValue</a>
 , <a class="el" href="class_motion_1_1_motion.html#a28f9f4f379de52d3edc92877e420264e">Motion.Motion</a>
 , <a class="el" href="class_motion_1_1_motion_scheduler.html#a335f6418b02ab5f9e3cf0f4e2a044829">Motion.MotionScheduler</a>
 , <a class="el" href="class_motion_1_1_servo.html#a963a2342244f89fdcfff840bcfdffff2">Motion.Servo</a>
+, <a class="el" href="class_motors_1_1_dc_motor.html#a5d9921cc6e2525d0432d0dec7aaa773d">Motors.DcMotor</a>
+, <a class="el" href="class_motors_1_1_stepper_motor.html#a6d6e588f9589af9777029473a11406b9">Motors.StepperMotor</a>
 , <a class="el" href="class_network_1_1_network.html#a4df6e5ecbd0481ceecb1984fe996ec5a">Network.Network</a>
 , <a class="el" href="class_notifier_1_1_notifier.html#a98f61f934cd7c75333ea996e3eba1a41">Notifier.Notifier</a>
 , <a class="el" href="class_notifier_1_1_notifier_metric.html#a1b5c42dd290f9e3dd1a7a12552cd51de">Notifier.NotifierMetric</a>
@@ -133,9 +137,15 @@ $(document).ready(function(){initNavTree('functions.html','');});
 , <a class="el" href="class_tk_help_manager_1_1_tk_help_manager.html#a41b62028a7563e4ee70a0a4b641a51a0">TkHelpManager.TkHelpManager</a>
 , <a class="el" href="class_tk_html_1_1_tk_html.html#ad7d3eeeb5f414d96f1ff868e5b2e8d86">TkHtml.TkHtml</a>
 , <a class="el" href="class_tk_i_m_u_manager_1_1_tk_i_m_u_manager.html#a564aeb512e05b0c1c21928b783cddecd">TkIMUManager.TkIMUManager</a>
+, <a class="el" href="class_tk_joystick_manager_1_1_tk_joystick.html#aff0a095592f28a21e3628aab90c43d3e">TkJoystickManager.TkJoystick</a>
+, <a class="el" href="class_tk_joystick_manager_1_1_tk_joystick_axis.html#afd3693d471fe76b9a3c69e5e3f3c4c7a">TkJoystickManager.TkJoystickAxis</a>
+, <a class="el" href="class_tk_joystick_manager_1_1_tk_joystick_button.html#a56037876d3ffa8e0e99c979b600d3db4">TkJoystickManager.TkJoystickButton</a>
+, <a class="el" href="class_tk_joystick_manager_1_1_tk_joystick_dual_axis.html#aef7e64332ff247bb94c557d824afe7fb">TkJoystickManager.TkJoystickDualAxis</a>
+, <a class="el" href="class_tk_joystick_manager_1_1_tk_joystick_manager.html#a0224f5fda96487920dcff7179f62ff5b">TkJoystickManager.TkJoystickManager</a>
 , <a class="el" href="class_tk_keyboard_manager_1_1_tk_keyboard_manager.html#a9e809c9601a97e498a6ea6cfa19e216c">TkKeyboardManager.TkKeyboardManager</a>
 , <a class="el" href="class_tk_metric_manager_1_1_tk_metric_manager.html#a55e981094b71a6d66cbf690fe45fd6d1">TkMetricManager.TkMetricManager</a>
 , <a class="el" href="class_tk_motion_manager_1_1_tk_motion_manager.html#ae1e8d41b03447859e15fad4326841ce9">TkMotionManager.TkMotionManager</a>
+, <a class="el" href="class_tk_motor_manager_1_1_tk_motor_manager.html#af4df6d15c8a60de00d1175e4e842f492">TkMotorManager.TkMotorManager</a>
 , <a class="el" href="class_tk_network_manager_1_1_tk_network_manager.html#a9d0c133cc98e2fd1284f7da7947ccebf">TkNetworkManager.TkNetworkManager</a>
 , <a class="el" href="class_tk_notifier_1_1_tk_notice.html#a93ea59b15505ce0ceea481cfcd53d839">TkNotifier.TkNotice</a>
 , <a class="el" href="class_tk_notifier_1_1_tk_notifier.html#a7dddba2eb2827966851c11f42e43e96f">TkNotifier.TkNotifier</a>

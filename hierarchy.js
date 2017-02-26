@@ -5,6 +5,9 @@ var hierarchy =
     [ "CLI.CLI", "class_c_l_i_1_1_c_l_i.html", null ],
     [ "DB.DB", "class_d_b_1_1_d_b.html", null ],
     [ "SRPC.Exposed", "class_s_r_p_c_1_1_exposed.html", null ],
+    [ "GObject", null, [
+      [ "Joystick.Joystick", "class_joystick_1_1_joystick.html", null ]
+    ] ],
     [ "HTTPServer", null, [
       [ "SRPC.SecureXMLRPCServer", "class_s_r_p_c_1_1_secure_x_m_l_r_p_c_server.html", null ]
     ] ],
@@ -18,10 +21,14 @@ var hierarchy =
         [ "Setting.Setting", "class_setting_1_1_setting.html", null ]
       ] ],
       [ "IMU.IMU", "class_i_m_u_1_1_i_m_u.html", null ],
+      [ "Joystick.JoystickRegistry", "class_joystick_1_1_joystick_registry.html", null ],
       [ "JsonBlob.JsonBlob", "class_json_blob_1_1_json_blob.html", [
         [ "Camera.CameraProfile", "class_camera_1_1_camera_profile.html", null ],
         [ "Motion.Motion", "class_motion_1_1_motion.html", null ],
         [ "Motion.Servo", "class_motion_1_1_servo.html", null ],
+        [ "Motors.DcMotor", "class_motors_1_1_dc_motor.html", [
+          [ "Motors.StepperMotor", "class_motors_1_1_stepper_motor.html", null ]
+        ] ],
         [ "Specification.Specification", "class_specification_1_1_specification.html", null ],
         [ "Timelapse.TimelapseProfile", "class_timelapse_1_1_timelapse_profile.html", null ]
       ] ],
@@ -51,9 +58,11 @@ var hierarchy =
           [ "TkGravityManager.TkGravityManager", "class_tk_gravity_manager_1_1_tk_gravity_manager.html", null ],
           [ "TkHelpManager.TkHelpManager", "class_tk_help_manager_1_1_tk_help_manager.html", null ],
           [ "TkIMUManager.TkIMUManager", "class_tk_i_m_u_manager_1_1_tk_i_m_u_manager.html", null ],
+          [ "TkJoystickManager.TkJoystickManager", "class_tk_joystick_manager_1_1_tk_joystick_manager.html", null ],
           [ "TkKeyboardManager.TkKeyboardManager", "class_tk_keyboard_manager_1_1_tk_keyboard_manager.html", null ],
           [ "TkMetricManager.TkMetricManager", "class_tk_metric_manager_1_1_tk_metric_manager.html", null ],
           [ "TkMotionManager.TkMotionManager", "class_tk_motion_manager_1_1_tk_motion_manager.html", null ],
+          [ "TkMotorManager.TkMotorManager", "class_tk_motor_manager_1_1_tk_motor_manager.html", null ],
           [ "TkNetworkManager.TkNetworkManager", "class_tk_network_manager_1_1_tk_network_manager.html", null ],
           [ "TkOrthoManager.TkOrthoManager", "class_tk_ortho_manager_1_1_tk_ortho_manager.html", null ],
           [ "TkPreFlightManager.TkPreFlightManager", "class_tk_pre_flight_manager_1_1_tk_pre_flight_manager.html", null ],
@@ -67,6 +76,10 @@ var hierarchy =
           [ "TkTimelapseManager.TkTimelapseManager", "class_tk_timelapse_manager_1_1_tk_timelapse_manager.html", null ]
         ] ],
         [ "TkConsole.TkConsole", "class_tk_console_1_1_tk_console.html", null ],
+        [ "TkJoystickManager.TkJoystick", "class_tk_joystick_manager_1_1_tk_joystick.html", null ],
+        [ "TkJoystickManager.TkJoystickAxis", "class_tk_joystick_manager_1_1_tk_joystick_axis.html", null ],
+        [ "TkJoystickManager.TkJoystickButton", "class_tk_joystick_manager_1_1_tk_joystick_button.html", null ],
+        [ "TkJoystickManager.TkJoystickDualAxis", "class_tk_joystick_manager_1_1_tk_joystick_dual_axis.html", null ],
         [ "TkNotifier.TkNotifier", "class_tk_notifier_1_1_tk_notifier.html", null ],
         [ "TkPreFlightManager.TkPreFlightLogo", "class_tk_pre_flight_manager_1_1_tk_pre_flight_logo.html", null ],
         [ "TkPreFlightManager.TkPreFlightScreens", "class_tk_pre_flight_manager_1_1_tk_pre_flight_screens.html", null ],

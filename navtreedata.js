@@ -16,9 +16,12 @@ var NAVTREE =
         [ "Dependencies", "index.html#dependencies", null ],
         [ "Help", "index.html#help", null ],
         [ "IMU", "index.html#imu", null ],
+        [ "Joystick", "index.html#joystick", null ],
         [ "Keyboard", "index.html#keyboard", null ],
         [ "Metrics", "index.html#metrics", null ],
         [ "Motions", "index.html#motions", null ],
+        [ "DC Motors", "index.html#motors", null ],
+        [ "Stepper Motors", "index.html#steppers", null ],
         [ "Notifier", "index.html#notifier", null ],
         [ "PreFlight", "index.html#preflight", null ],
         [ "Resources", "index.html#resources", null ],
@@ -46,12 +49,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"class_i_m_u_1_1_i_m_u.html#ab0e7c5b9a135577670a35ee51316f2b7",
-"class_s_r_p_c_1_1_secure_x_m_l_rpc_request_handler.html#ad632b799c0d8ed8e80a8a0038b9d3755",
-"class_tk_graphs_1_1_tk_bar_graph.html#a1e382f582826025694890dc76812a0bc",
-"class_tk_motion_manager_1_1_tk_motion_manager.html#a18dd6c8abcf2bd0f6c1000a7b8d6b9d7",
-"class_tk_servo_manager_1_1_tk_servo_manager.html#a15900bc9653b1449a1507284d831e78b",
-"classlowpassfilter_1_1lowpassfilter.html#aaa28216e0f603917b286c13b8c2626ce"
+"class_i_m_u_1_1_i_m_u.html#a912c463d6a77efcaa172a4bd49c68da5",
+"class_network_1_1_network.html",
+"class_tk_camera_manager_1_1_tk_camera_manager.html#a02f6d11b6fa88ed65467b8d7a649ed55",
+"class_tk_i_m_u_manager_1_1_tk_i_m_u_manager.html#ae261c391b470c42528cfa777827f9246",
+"class_tk_motor_manager_1_1_tk_motor_manager.html#a707cb0100a1376ee43a488e7cbdeb4d9",
+"class_tk_setting_manager_1_1_tk_setting_manager.html",
+"functions_func_i.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
